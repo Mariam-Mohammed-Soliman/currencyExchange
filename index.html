@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>currencyExchangeTask</title>
+</head>
+<body>
+
+    <div class="h1 text-center p-3">Currency Exchange</div>
+
+    <div class="displayContainer">
+        <div class="container py-3">
+    
+            <div class="searchContainer m-5 row justify-content-evenly">
+                <div class="col-3">
+                    <label for="" class="pt-2">Amount</label>
+                </div>
+                <div class="col-8">
+                    <input type="text" name="" id="inputSearch" class="form-control">
+                </div>
+                
+            </div>
+            
+            <div id="fromToContainer" class="my-5 row justify-content-evenly">
+                
+                <div class="col-4">
+                    <label for="" class="">From</label>
+                    <select id="currencyFromList" class="form-select">
+                    </select>
+                </div>
+                
+                <div class="col-4">
+                    <label for="" class="">To</label>
+                    <select id="currencyToList" class="form-select">
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="btnCont w-100 text-center">
+                <div id="convertBtn" class="btn convertBtn my-3 w-25">Convert</div>
+            </div>
+            
+            <div id="resultCont" class="row justify-content-evenly my-3">
+                <p class="h3 col-1 pt-2">Result:-</p>
+                <input type="text" value="20" id="result" class="col-3 h2 text-light pt-2 px-3" disabled>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
